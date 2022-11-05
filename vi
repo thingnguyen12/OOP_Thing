@@ -1,0 +1,4 @@
+#!/bin/bash
+
+grep "VmSize" /proc/"$pid"/status | head -n -2 | sed "s/[^0-9.]\+/ /g" | sed "s/ //"|
+sort -nk2 | tail -n1 | awk '{print $1" : "$2}'

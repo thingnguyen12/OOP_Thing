@@ -1,0 +1,3 @@
+#!/bin/bash
+ps u >> task3.txt
+

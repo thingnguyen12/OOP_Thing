@@ -1,0 +1,2 @@
+#!/bin/bash
+ps a | grep "/sbin/" | awk '{print $1}' >> task2.txt

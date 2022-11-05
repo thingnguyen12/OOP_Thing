@@ -1,0 +1,4 @@
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+Thing      9369  0.0  0.2 116316  2916 pts/0    Ss   21:16   0:00 bash
+Thing     10859  0.0  0.1 113280  1188 pts/0    S+   21:43   0:00 /bin/bash ./iii
+Thing     10860  0.0  0.1 155448  1860 pts/0    R+   21:43   0:00 ps u
